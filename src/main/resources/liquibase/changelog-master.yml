@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - include:
+      file: liquibase/scripts/lot.sql
+
+  - include:
+      file: liquibase/scripts/bid.sql
+
+  - include:
+      file: liquibase/scripts/constraint.sql
+
+
+
+
